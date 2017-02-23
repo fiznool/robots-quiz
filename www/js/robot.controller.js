@@ -5,5 +5,5 @@ angular
   .controller('RobotController', function($stateParams, RobotsFactory) {
     var $ctrl = this;
 
-    $ctrl.tobor = RobotsFactory.getRobotById($stateParams.id);
+    $ctrl.robot = RobotsFactory.getRobotById($stateParams.id);
   });

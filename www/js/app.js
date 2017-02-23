@@ -18,8 +18,9 @@
       })
       .state('robotState', {
         url: '/robots/:id',
-        templateUrl: 'robot.html',
-        controller: 'RobotController'
+        templateUrl: 'tmpl/robot.html',
+        controller: 'RobotController',
+        controllerAs: '$ctrl'
       });
 
     $urlRouterProvider.otherwise('robots');
